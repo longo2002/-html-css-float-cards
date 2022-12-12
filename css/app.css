@@ -1,11 +1,21 @@
+/* ////////REGOLE GENERALI E DI RESET//////// */
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 img{
     height: 100px;
+    margin-right: 10px;
 }
 
 body{
@@ -13,6 +23,17 @@ body{
     margin: 0 auto;
 }
 
+/*provvisorio */
+
+main{
+    padding-left: 35px;
+}
+
+/* provvisorio */
+
+
+
+/* ////////GESTIONE HEADER//////// */
 .header{
     text-align: center;
 }
@@ -29,6 +50,8 @@ body{
     margin: 50px;
 }
 
+
+/* ////////GESTIONE CARD//////// */
 .card-persona{
     background-color: rgba(15,14,23,255);
     height: 100px;
@@ -42,15 +65,19 @@ body{
     float: left;
 }
 
+.card-info{
+    margin: 5px 5px;
+}
+
 .nome-card,.mansione-card,.mail-card{
     display: block;
-    
+    line-height: 30px;
 }
 
 .nome-card{
-    font-size: 25px;
     font-family: 'Fredoka One', cursive;
     color: white;
+    font-size: 20px;
 }
 
 .mansione-card{   
