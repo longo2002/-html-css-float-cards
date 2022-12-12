@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 100px;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    text-align: center;
+}
+
+.titolo-header{
+    color: rgba(229,41,127,255);
+    font-family: 'Fredoka One', cursive;
+}
+
+.paragrafo-header{
+    font-weight: bold;
+    font-family: sans-serif, cursive;
+}
+
+.card-persona{
+    background-color: rgba(15,14,23,255);
+    height: 100px;
+    width: 350px;
+    margin: 15px 15px;
+    float: left;
+}
+
+.immagine-card{
+    float: left;
+}
+
+.nome-card,.mansione-card,.mail-card{
+    display: block;
+    
+}
+
+.nome-card{
+    font-size: 25px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.mansione-card{   
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+.mail-card{
+    font-family: sans-serif;
+    color: dodgerblue;
+}
