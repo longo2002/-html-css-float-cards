@@ -57,8 +57,8 @@ main{
     height: 100px;
     width: 350px;
     margin: 15px 15px;
-    float: left;
     box-shadow: 10px 10px 10px lightgrey;
+    float: left;
 }
 
 .immagine-card{
